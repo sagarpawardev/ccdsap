@@ -2,15 +2,22 @@
 // Created by Sagar Pawar on 26/03/20.
 //
 /**
- * Problem: KSUBSUM
+ * Problem : KSUBSUM
  *
- * Algorithm:
+ * Algorithm :
  * 1. Modify array to build prefix sum array (helps in range query for sum in O(1) )
  * 2. For all range combinations
  *      a. collect sum of range in a heap or multiset (keeps it sorted)
  *      b. fix size of sum collection to maximum needed k (i.e. k3)
  *
  * Complexity: O( n^2 log(k) )
+ *
+ * Learning :
+ * 1. Prefix sum array can be used to store sum of range instead of segment tree
+ * 2. If upper limit needs to fixed on heap size then
+ *      a. Its better to check then insert instead of
+ *      b. Insert and then pop
+ *
  */
 #include <bits/stdc++.h>
 

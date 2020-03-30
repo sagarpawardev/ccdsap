@@ -8,3 +8,4 @@ add_executable(ccdsap main.cpp)
 
 add_executable(IPCTRAIN heaps/IPCTRAIN.cpp)
 add_executable(ANUMLA heaps/ANUMLA.cpp)
+add_executable(KSUBSUM heaps/KSUBSUM.cpp)

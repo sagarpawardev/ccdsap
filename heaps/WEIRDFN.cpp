@@ -19,26 +19,25 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <queue>
 
 #define ll long long
 
 using namespace std;
 
 vector<ll> heapLeft;
-priority_queue<ll> pqRight;
-
+vector<ll> heapRight;
 int size = 0;
 
 void clearMedian(){
     heapLeft.clear();
-    pqRight = priority_queue <ll>();
+    heapRight.clear();
 }
 
 ll insertMedian(ll a) {
     size++;
-    if (heapLeft.size() > pqRight.size()) {
-        pqRight.push(a);
+    if (heapLeft.size() > heapRight.size()) {
+        heapRight.push_back(a);
+        push_heap(heapRight.begin(), heapRight.end(), greater<>());
     } else {
         heapLeft.push_back(a);
         push_heap(heapLeft.begin(), heapLeft.end());
@@ -46,19 +45,21 @@ ll insertMedian(ll a) {
 
     // If heap top element > then priority queue top element
     // Then exchange elements
-    if (!heapLeft.empty() && !pqRight.empty()) {
-        if (heapLeft[0] > pqRight.top()) {
+    if (!heapLeft.empty() && !heapRight.empty()) {
+        if (heapLeft[0] > heapRight[0]) {
             ll x = heapLeft[0];
             pop_heap(heapLeft.begin(), heapLeft.end());
             heapLeft.pop_back();
 
-            ll y = pqRight.top();
-            pqRight.pop();
+            ll y = heapRight[0];
+            pop_heap(heapRight.begin(), heapRight.end(), greater<>());
+            heapRight.pop_back();
 
             heapLeft.push_back(y);
             push_heap(heapLeft.begin(), heapLeft.end());
 
-            pqRight.push(x);
+            heapRight.push_back(x);
+            push_heap(heapRight.begin(), heapRight.end(), greater<>());
         }
     }
 
@@ -67,8 +68,8 @@ ll insertMedian(ll a) {
 
 
 int main() {
-    /*char *testfile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/WEIRDFN.txt";
-    freopen(testfile, "r+", stdin);*/
+    char *testfile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/WEIRDFN.txt";
+    freopen(testfile, "r+", stdin);
 
     ios::sync_with_stdio(false);
 
@@ -96,3 +97,4 @@ int main() {
 
     return 0;
 }
+

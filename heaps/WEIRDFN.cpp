@@ -68,8 +68,8 @@ ll insertMedian(ll a) {
 
 
 int main() {
-    char *testfile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/WEIRDFN.txt";
-    freopen(testfile, "r+", stdin);
+    /*char *testfile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/WEIRDFN.txt";
+    freopen(testfile, "r+", stdin);*/
 
     ios::sync_with_stdio(false);
 

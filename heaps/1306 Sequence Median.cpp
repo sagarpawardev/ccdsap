@@ -3,6 +3,8 @@
 //
 /**
  * Problem : 1306 Sequence Median
+ * Basic challenge in this problem is to use reduce memory-usage of the program.
+ * Sorting and 2 heaps takes huge amount of memory
  *
  * Algorithm :
  * 1. For first (n/2, if odd and n/2 + 1, if even) elements
@@ -18,6 +20,7 @@
  *
  * Learning:
  * 1. median of an array always exist in contiguous sub-array of size (n/2 + 1)
+ * 2. unsigned integer uses 32 bits and can be used in place of long if values are positive. This saves memory
  */
 
 #include <iostream>

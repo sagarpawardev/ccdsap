@@ -19,3 +19,7 @@ add_executable(1306_Sequence_Median "heaps/1306 Sequence Median.cpp")
 ]]
 add_executable(COVIDLQ APRIL20B/COVIDLQ.cpp)
 add_executable(CARSELL APRIL20B/CARSELL.cpp)
+add_executable(UNITGCD APRIL20B/UNITGCD.cpp)
+]]
+add_executable(STRNO APRIL20B/STRNO.cpp)
+add_executable(GALACTIK "disjoint set union/GALACTIK.cpp")

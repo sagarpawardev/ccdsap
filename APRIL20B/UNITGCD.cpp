@@ -22,17 +22,17 @@ using namespace std;
 
 int main(){
 #ifndef ONLINE_JUDGE
-    char* textFile = "/Users/sagarpawar/CLionProjects/ccdsap/APRIL20B/test/UNITGCD.txt";
+    char* textFile = (char *)"/Users/sagarpawar/CLionProjects/ccdsap/APRIL20B/test/UNITGCD.txt";
     freopen(textFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
-    cin.tie(0);
-    cout.tie(0);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t;
+    int t=0;
     cin >> t;
     while(t--){
-        int n;
+        int n=0;
         cin >> n;
 
         // Number of pages

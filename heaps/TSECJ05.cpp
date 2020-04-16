@@ -22,9 +22,10 @@
 using namespace std;
 
 int main(){
-
-    /*char *testFile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/TSECJ05.txt";
-    freopen(testFile, "r+", stdin);*/
+#ifndef ONLINE_JUDGE
+    char *testFile = (char*)"/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/TSECJ05.txt";
+    freopen(testFile, "r+", stdin);
+#endif
 
     ios::sync_with_stdio(false);
 

@@ -16,8 +16,10 @@ bool descSadness(vector<int> a, vector<int> b){
 }
 
 int main(){
-    /*char* testFile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/IPCTRAIN.txt";
-    freopen(testFile, "r+", stdin);*/
+#ifndef ONLINE_JUDGE
+    char* testFile = (char*)"/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/IPCTRAIN.txt";
+    freopen(testFile, "r+", stdin);
+#endif
 
     ios::sync_with_stdio(false);
     int t;

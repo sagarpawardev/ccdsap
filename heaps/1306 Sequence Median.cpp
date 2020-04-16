@@ -32,9 +32,10 @@
 using namespace std;
 
 int main() {
-
-    /*char* testFile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/1306 Sequence Median.txt";
-    freopen(testFile, "r", stdin);*/
+#ifndef ONLINE_JUDGE
+    char* testFile = (char*)"/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/1306 Sequence Median.txt";
+    freopen(testFile, "r", stdin);
+#endif
 
     ui n;
     cin >> n;

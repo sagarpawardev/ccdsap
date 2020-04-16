@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 #ifndef ONLINE_JUDGE
-    char *testFile = "/Users/sagarpawar/CLionProjects/ccdsap/APRIL20B/test/COVIDLQ.txt";
+    char *testFile = (char *)"/Users/sagarpawar/CLionProjects/ccdsap/APRIL20B/test/COVIDLQ.txt";
     freopen(testFile, "r", stdin);
 #endif
 

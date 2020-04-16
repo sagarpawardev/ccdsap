@@ -10,7 +10,7 @@ using namespace std;
 int main() {
 
 #ifndef ONLINE_JUDGE
-    char *testFile = "/Users/sagarpawar/CLionProjects/ccdsap/APRIL20B/test/CARSELL.txt";
+    char *testFile = (char *)"/Users/sagarpawar/CLionProjects/ccdsap/APRIL20B/test/CARSELL.txt";
     freopen(testFile, "r", stdin);
 #endif
 

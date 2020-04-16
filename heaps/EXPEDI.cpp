@@ -28,7 +28,7 @@ bool compareStation(struct pair<int, int> &p1, struct pair<int, int> &p2) {
 int main() {
 
 #ifndef ONLINE_JUDGE
-    char *textFile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/EXPEDI.txt";
+    char *textFile = (char*)"/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/EXPEDI.txt";
     freopen(textFile, "r+", stdin);
 #endif
 

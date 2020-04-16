@@ -31,18 +31,18 @@ using namespace std;
 
 int main(){
 #ifndef ONLINE_JUDGE
-    char* testFile = "/Users/sagarpawar/CLionProjects/ccdsap/APRIL20B/test/STRNO.txt";
+    char* testFile = (char *)"/Users/sagarpawar/CLionProjects/ccdsap/APRIL20B/test/STRNO.txt";
     freopen(testFile, "r", stdin);
 #endif
 
     ios::sync_with_stdio(false);
-    cin.tie(NULL);
+    cin.tie(nullptr);
 
-    int t;
+    int t=0;
     cin >> t;
 
     while(t--){
-        long x, k;
+        long x=0, k=0;
         cin >> x >> k;
 
         long count = 0;

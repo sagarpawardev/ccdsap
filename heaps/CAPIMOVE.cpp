@@ -24,9 +24,10 @@ bool comparePopulation(pair<int, int>& p1, pair<int, int>& p2){
 }
 
 int main(){
-
-    /*char* testfile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/CAPIMOVE.txt";
-    freopen(testfile, "r+", stdin);*/
+#ifndef ONLINE_JUDGE
+    char* testfile = (char*)"/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/CAPIMOVE.txt";
+    freopen(testfile, "r+", stdin);
+#endif
 
     int t;
     cin >> t;

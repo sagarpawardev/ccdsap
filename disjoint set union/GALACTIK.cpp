@@ -8,14 +8,14 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *textFile = "/Users/sagarpawar/CLionProjects/ccdsap/disjoint set union/test/GALACTIK.txt";
+    char *textFile = (char *)"/Users/sagarpawar/CLionProjects/ccdsap/disjoint set union/test/GALACTIK.txt";
     freopen(textFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
-    cin.tie(NULL);
+    cin.tie(nullptr);
     const int MAX_VALUE = 1000000001;
 
-    int n, m;
+    int n=0, m=0;
     cin >> n >> m;
 
     vector<int> leader(n + 1);
@@ -23,7 +23,7 @@ int main() {
         leader[i] = i;
     }
     for (int i = 0; i < m; i++) {
-        int a, b;
+        int a=0, b=0;
         cin >> a >> b;
         int c = min(a, b);
         b = max(a, b);

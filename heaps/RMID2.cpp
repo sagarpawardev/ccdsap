@@ -27,9 +27,10 @@
 using namespace std;
 
 int main(){
-
-    /*char* textFile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/RMID2.txt";
-    freopen(textFile, "r+", stdin);*/
+#ifndef ONLINE_JUDGE
+    char* textFile = (char*)"/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/RMID2.txt";
+    freopen(textFile, "r+", stdin);
+#endif
 
     ios::sync_with_stdio(false);
     cin.tie(NULL);

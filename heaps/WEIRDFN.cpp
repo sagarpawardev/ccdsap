@@ -68,8 +68,10 @@ ll insertMedian(ll a) {
 
 
 int main() {
-    /*char *testfile = "/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/WEIRDFN.txt";
-    freopen(testfile, "r+", stdin);*/
+#ifndef ONLINE_JUDGE
+    char *testfile = (char*)"/Users/sagarpawar/CLionProjects/ccdsap/heaps/test/WEIRDFN.txt";
+    freopen(testfile, "r+", stdin);
+#endif
 
     ios::sync_with_stdio(false);
 

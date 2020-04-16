@@ -11,8 +11,10 @@
  *
  * Learning:
  * Sometimes SIGXFSZ may arise which means max output file size exceeded. In this problem a blank space at the end of
- * each line causing the error. Basic solution was write extra login to avoid the blank space.
- *
+ * each line causing the error. Basic solution was write extra logic to avoid the blank space.
+ * For example:
+ * '1 2 3 ' --> Will give SIGXFSZ error
+ * '1 2 3' --> Will pass
  */
 #include <bits/stdc++.h>
 

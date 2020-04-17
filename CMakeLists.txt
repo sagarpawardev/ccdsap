@@ -21,4 +21,4 @@ add_executable(CARSELL APRIL20B/CARSELL.cpp)
 ]]
 add_executable(STRNO APRIL20B/STRNO.cpp)
 add_executable(UNITGCD APRIL20B/UNITGCD.cpp)
-add_executable(GALACTIK "disjoint set union/GALACTIK.cpp")
+add_executable(GALACTIK "disjoint set union/_GALACTIK.cpp")

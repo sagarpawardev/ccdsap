@@ -22,8 +22,8 @@ bool greaterThan(pair<int, int> pair1, pair<int, int> pair2) {
 }
 
 int getInt(char c1, char c2) {
-    int i1 = c1<='Z' ? c1-'A' : c2-'a';
-    int i2 = c2<='Z' ? c2-'A' : c2-'a';
+    int i1 = c1<='Z' ? c1-'A' : c2-'a'+26;
+    int i2 = c2<='Z' ? c2-'A' : c2-'a'+26;
     return stoi(to_string(i1) + to_string(i2));
 }
 

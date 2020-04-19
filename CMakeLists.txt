@@ -24,3 +24,9 @@ add_executable(UNITGCD APRIL20B/UNITGCD.cpp)
 add_executable(GALACTIK "disjoint set union/_GALACTIK.cpp")
 add_executable(DISHOWN "disjoint set union/DISHOWN.cpp")
 add_executable(JABO "disjoint set union/_JABO.cpp")
+
+# Practise problems
+add_executable(1_START01 practise/START01.cpp)
+add_executable(2_TRISQ practise/TRISQ.cpp)
+add_executable(3_HS08TEST practise/HS08TEST.cpp)
+add_executable(4_INTEST practise/INTEST.cpp)

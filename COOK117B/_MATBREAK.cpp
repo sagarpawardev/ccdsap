@@ -8,6 +8,8 @@ Problem: MATBREAK.cpp
 Algorithm:
   
 Learning:
+   pow(), java Math.power() --> Incapable of handling powers of large number
+   java BigInteger.multiply() -> Capable of handling large powers but very slow
   
 **/
 
@@ -16,33 +18,6 @@ Learning:
 #define ll unsigned long long
 #define MAX_VAL 100000
 using namespace std;
-
-ll power(int x, int n) {
-
-    if (n == 0) {
-        return 1;
-    }
-
-
-    int res[MAX_VAL];
-    int res_size = 0;
-    int temp = x;
-
-    while (temp != 0) {
-        res[res_size++] = temp % 10;
-        temp = temp / 10;
-    }
-
-    for (int i = 2; i <= n; i++)
-        res_size = multiply(x, res, res_size);
-
-    string s;
-    for (int i = res_size - 1; i >= 0; i--)
-        s.push_back(res[i]);
-
-    string::size_type sz = 0;
-    return stoll(s, &sz, 0);
-}
 
 int main() {
 #ifndef ONLINE_JUDGE
@@ -66,9 +41,9 @@ int main() {
         for (ll i = 0; i < n; i++) {
             ll factor = i + (i + 1);
 
-            ll p = power(a, factor) % MAX;
+            ll p = (ll)pow(a, factor) % MAX;
             sum = (sum + p) % MAX;
-            a = (a * power(a, factor)) % MAX;
+            a = (ll)(a * pow(a, factor)) % MAX;
         }
 
         cout << sum << "\n";

@@ -25,7 +25,6 @@ add_executable(DISHOWN "disjoint set union/DISHOWN.cpp")
 add_executable(JABO "disjoint set union/_JABO.cpp")
 add_executable(LIFTME COOK117B/LIFTME.cpp)
 add_executable(MATBREAK COOK117B/_MATBREAK.cpp)
-]]
 
 # Practise problems
 add_executable(1_START01 practise/START01.cpp)
@@ -45,3 +44,12 @@ add_executable(14_CHOPRT practise/CHOPRT.cpp)
 add_executable(15_DWNLD practise/DWNLD.cpp)
 add_executable(16_CIELRCPT practise/CIELRCPT.cpp)
 add_executable(17_FLOW017 practise/FLOW017.cpp)
+add_executable(18_FLOW004 practise/FLOW004.cpp)
+add_executable(19_FLOW018 practise/FLOW018.cpp)
+add_executable(20_FLOW007 practise/FLOW007.cpp)
+]]
+add_executable(21_FRUITS practise/FRUITS.cpp)
+add_executable(22_PPSUM practise/PPSUM.cpp)
+add_executable(23_PRB01 practise/PRB01.cpp)
+add_executable(24_FLOW010 practise/FLOW010.cpp)
+add_executable(25_CHEFSUM practise/CHEFSUM.cpp)

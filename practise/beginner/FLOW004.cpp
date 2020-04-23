@@ -1,14 +1,9 @@
 //
-// Created by Sagar Pawar on 21/04/20.
+// Created by Sagar Pawar on 23/04/20.
 //
 
 /**
-Problem: FSQRT.cpp
-  
-Algorithm:
-  
-Learning:
-  
+Problem: FLOW004.cpp
 **/
 
 #include <bits/stdc++.h>
@@ -17,7 +12,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/FSQRT.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/FLOW004.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
@@ -27,12 +22,13 @@ int main() {
     int t = 0;
     cin >> t;
     while (t--) {
-        int n;
+        string n;
         cin >> n;
 
-        int root = sqrt(n);
+        int sum = (n[0]-'0') + (n[n.size()-1]-'0');
 
-        cout << root << "\n";
+        cout << sum << "\n";
+
     }
 
     return 0;

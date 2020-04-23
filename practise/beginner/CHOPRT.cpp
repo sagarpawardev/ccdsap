@@ -3,7 +3,7 @@
 //
 
 /**
-Problem: FLOW005.txt.cpp
+Problem: CHOPRT.cpp
   
 Algorithm:
   
@@ -17,7 +17,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/FLOW005.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/CHOPRT.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
@@ -27,18 +27,18 @@ int main() {
     int t = 0;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
+        int a, b;
+        cin >> a >> b;
 
-        int a[] = {100, 50, 10, 5, 2};
-        int sum = 0;
-        for(int i: a){
-            int b = n%i;
-            sum += (n-b)/i;
-            n = b;
+        if(a>b){
+            cout << ">\n";
         }
-        sum += n;
-        cout << sum << "\n";
+        else if(b>a){
+            cout << "<\n";
+        }
+        else{
+            cout << "=\n";
+        }
     }
 
     return 0;

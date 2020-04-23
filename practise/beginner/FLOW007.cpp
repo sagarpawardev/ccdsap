@@ -3,26 +3,16 @@
 //
 
 /**
-Problem: PPSUM.cpp
+Problem: FLOW007.cpp
 **/
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int sum(int d, int n){
-    if(d==0){
-        return n;
-    }
-
-    int a = sum(d-1, n);
-
-    return a*(a+1)/2;
-}
-
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/PPSUM.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/FLOW007.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
@@ -32,11 +22,16 @@ int main() {
     int t = 0;
     cin >> t;
     while (t--) {
-        int d, n;
-        cin >> d >> n;
+        int n = 0;
+        cin >> n;
 
-        int a = sum(d, n);
-        cout << a << "\n";
+        int rev = 0;
+        while(n>0){
+            rev = rev*10 + (n%10);
+            n /= 10;
+        }
+
+        cout << rev << "\n";
     }
 
     return 0;

@@ -3,7 +3,7 @@
 //
 
 /**
-Problem: FLOW007.cpp
+Problem: FRUITS.cpp
 **/
 
 #include <bits/stdc++.h>
@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/FLOW007.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/FRUITS.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
@@ -22,16 +22,11 @@ int main() {
     int t = 0;
     cin >> t;
     while (t--) {
-        int n = 0;
-        cin >> n;
+        int n, m, k;
+        cin >> n >> m >> k;
 
-        int rev = 0;
-        while(n>0){
-            rev = rev*10 + (n%10);
-            n /= 10;
-        }
-
-        cout << rev << "\n";
+        int diff = abs(n-m);
+        cout << max(diff-k, 0) << "\n";
     }
 
     return 0;

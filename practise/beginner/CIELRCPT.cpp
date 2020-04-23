@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/CIELRCPT.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/CIELRCPT.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);

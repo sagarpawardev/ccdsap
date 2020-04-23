@@ -1,14 +1,9 @@
 //
-// Created by Sagar Pawar on 21/04/20.
+// Created by Sagar Pawar on 23/04/20.
 //
 
 /**
-Problem: FLOW006.cpp
-  
-Algorithm:
-  
-Learning:
-  
+Problem: FLOW018.cpp
 **/
 
 #include <bits/stdc++.h>
@@ -17,7 +12,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/FLOW006.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/FLOW018.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
@@ -29,12 +24,13 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
-        int sum = 0;
-        while(n>0){
-            sum += n%10;
-            n = n/10;
+
+        long long fact = 1;
+        for(int i=2; i<=n; i++){
+            fact *= i;
         }
-        cout << sum << "\n";
+
+        cout << fact << "\n";
     }
 
     return 0;

@@ -26,7 +26,7 @@ bool isPrime(int n){
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/PRB01.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/PRB01.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);

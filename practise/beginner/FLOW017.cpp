@@ -3,12 +3,7 @@
 //
 
 /**
-Problem: CHOPRT.cpp
-  
-Algorithm:
-  
-Learning:
-  
+Problem: FLOW017.cpp
 **/
 
 #include <bits/stdc++.h>
@@ -17,7 +12,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/CHOPRT.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/FLOW017.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
@@ -27,18 +22,19 @@ int main() {
     int t = 0;
     cin >> t;
     while (t--) {
-        int a, b;
-        cin >> a >> b;
-
-        if(a>b){
-            cout << ">\n";
+        int a, b, c;
+        cin >> a >> b >> c;
+        int r;
+        if(a>b && a>c){
+            r = max(b,c);
         }
-        else if(b>a){
-            cout << "<\n";
+        else if(b>a && b>c){
+            r = max(a,c);
         }
         else{
-            cout << "=\n";
+            r = max(a, b);
         }
+        cout << r << "\n";
     }
 
     return 0;

@@ -3,7 +3,7 @@
 //
 
 /**
-Problem: FLOW004.cpp
+Problem: LUCKFOUR.cpp
 **/
 
 #include <bits/stdc++.h>
@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/FLOW004.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/school/test/LUCKFOUR.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
@@ -25,10 +25,14 @@ int main() {
         string n;
         cin >> n;
 
-        int sum = (n[0]-'0') + (n[n.size()-1]-'0');
+        int nSize = n.size();
+        int count = 0;
+        for(int i=0; i<nSize; i++){
+            if(n[i]=='4')
+                count++;
+        }
 
-        cout << sum << "\n";
-
+        cout << count << "\n";
     }
 
     return 0;

@@ -3,7 +3,7 @@
 //
 
 /**
-Problem: FLOW008.cpp
+Problem: FLOW005.txt.cpp
   
 Algorithm:
   
@@ -17,7 +17,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/FLOW008.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/FLOW005.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);
@@ -30,13 +30,15 @@ int main() {
         int n;
         cin >> n;
 
-        if(n<10){
-            cout << "What an obedient servant you are!\n";
+        int a[] = {100, 50, 10, 5, 2};
+        int sum = 0;
+        for(int i: a){
+            int b = n%i;
+            sum += (n-b)/i;
+            n = b;
         }
-        else{
-            cout << "-1 \n";
-        }
-
+        sum += n;
+        cout << sum << "\n";
     }
 
     return 0;

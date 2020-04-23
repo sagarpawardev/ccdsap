@@ -17,7 +17,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/test/HS08TEST.txt";
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/practise/biginner/test/HS08TEST.txt";
     freopen(testFile, "r", stdin);
 #endif
     ios::sync_with_stdio(false);

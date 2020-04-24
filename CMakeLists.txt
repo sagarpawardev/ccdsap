@@ -62,3 +62,7 @@ add_executable(32_ELEVSTRS practise/beginner/ELEVSTRS.cpp)
 add_executable(33_CHEFSTLT practise/school/CHEFSTLT.cpp)]]
 add_executable(34_PALL01 practise/beginner/PALL01.cpp)
 add_executable(35_WDTBAM practise/school/WDTBAM.cpp)
+add_executable(36_TWONMS practise/school/TWONMS.cpp)
+add_executable(37_PERFCONT practise/school/PERFCONT.cpp)
+add_executable(38_FCTRL2 practise/school/FCTRL2.cpp) # Important
+add_executable(39_LONGSEQ practise/school/LONGSEQ.cpp)

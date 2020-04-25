@@ -26,6 +26,12 @@ add_executable(JABO "disjoint set union/_JABO.cpp")
 add_executable(LIFTME COOK117B/LIFTME.cpp)
 add_executable(MATBREAK COOK117B/_MATBREAK.cpp)
 
+#April Lunch Time
+add_executable(FFL LTIME83B/FFL.cpp)
+add_executable(SHUFFLE LTIME83B/SHUFFLE.cpp)
+add_executable(MEXUM LTIME83B/MEXUM.cpp)
+add_executable(DOTTIME LTIME83B/DOTTIME.cpp)
+
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)
 add_executable(2_TRISQ practise/biginner/TRISQ.cpp)
@@ -66,7 +72,7 @@ add_executable(36_TWONMS practise/school/TWONMS.cpp)
 add_executable(37_PERFCONT practise/school/PERFCONT.cpp)
 add_executable(38_FCTRL2 practise/school/FCTRL2.cpp) # Important
 add_executable(39_LONGSEQ practise/school/LONGSEQ.cpp)
-]]
 add_executable(40_CHEFAPAR practise/school/CHEFAPAR.cpp)
 add_executable(41_JOHNY practise/easy/JOHNY.cpp)
 add_executable(42_CIELAB practise/easy/CIELAB.cpp)
+]]

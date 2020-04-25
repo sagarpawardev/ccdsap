@@ -59,10 +59,14 @@ add_executable(29_FLOW013 practise/beginner/FLOW013.cpp)
 add_executable(30_FLOW014 practise/beginner/FLOW014.cpp)
 add_executable(31_TICKETS5 practise/beginner/TICKETS5.cpp)
 add_executable(32_ELEVSTRS practise/beginner/ELEVSTRS.cpp)
-add_executable(33_CHEFSTLT practise/school/CHEFSTLT.cpp)]]
+add_executable(33_CHEFSTLT practise/school/CHEFSTLT.cpp)
 add_executable(34_PALL01 practise/beginner/PALL01.cpp)
 add_executable(35_WDTBAM practise/school/WDTBAM.cpp)
 add_executable(36_TWONMS practise/school/TWONMS.cpp)
 add_executable(37_PERFCONT practise/school/PERFCONT.cpp)
 add_executable(38_FCTRL2 practise/school/FCTRL2.cpp) # Important
 add_executable(39_LONGSEQ practise/school/LONGSEQ.cpp)
+]]
+add_executable(40_CHEFAPAR practise/school/CHEFAPAR.cpp)
+add_executable(41_JOHNY practise/easy/JOHNY.cpp)
+add_executable(42_CIELAB practise/easy/CIELAB.cpp)

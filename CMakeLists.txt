@@ -76,3 +76,11 @@ add_executable(40_CHEFAPAR practise/school/CHEFAPAR.cpp)
 add_executable(41_JOHNY practise/easy/JOHNY.cpp)
 add_executable(42_CIELAB practise/easy/CIELAB.cpp)
 ]]
+
+add_executable(43_HORSES practise/easy/HORSES.cpp)
+add_executable(44_C00K0FF practise/easy/C00K0FF.cpp)
+add_executable(45_CK87MEDI practise/easy/CK87MEDI.cpp)
+add_executable(46_MATPAN practise/easy/MATPAN.cpp)
+add_executable(47_LECANDY practise/easy/LECANDY.cpp)
+add_executable(48_BRACKETS practise/easy/BRACKETS.cpp)
+add_executable(49_CHN09 practise/beginner/CHN09.cpp)

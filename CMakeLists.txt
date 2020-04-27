@@ -92,3 +92,8 @@ add_executable(54_XENTASK practise/beginner/XENTASK.cpp)
 add_executable(55_VCS practise/beginner/VCS.cpp)
 add_executable(56_AMR15A practise/beginner/AMR15A.cpp)
 add_executable(57_GCD2 practise/beginner/GCD2.cpp) # Important
+add_executable(58_DECSTR practise/easy/DECSTR.cpp)
+add_executable(59_AMSGAME1 practise/easy/AMSGAME1.cpp) # Important
+add_executable(60_CSUB practise/easy/CSUB.cpp)
+add_executable(61_SUBGCD practise/easy/SUBGCD.cpp) # Important
+add_executable(62_ROWCOLOP practise/easy/ROWCOLOP.cpp) # Important

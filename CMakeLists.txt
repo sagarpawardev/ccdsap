@@ -75,8 +75,6 @@ add_executable(39_LONGSEQ practise/school/LONGSEQ.cpp)
 add_executable(40_CHEFAPAR practise/school/CHEFAPAR.cpp)
 add_executable(41_JOHNY practise/easy/JOHNY.cpp)
 add_executable(42_CIELAB practise/easy/CIELAB.cpp)
-]]
-
 add_executable(43_HORSES practise/easy/HORSES.cpp)
 add_executable(44_C00K0FF practise/easy/C00K0FF.cpp)
 add_executable(45_CK87MEDI practise/easy/CK87MEDI.cpp)
@@ -97,3 +95,7 @@ add_executable(59_AMSGAME1 practise/easy/AMSGAME1.cpp) # Important
 add_executable(60_CSUB practise/easy/CSUB.cpp)
 add_executable(61_SUBGCD practise/easy/SUBGCD.cpp) # Important
 add_executable(62_ROWCOLOP practise/easy/ROWCOLOP.cpp) # Important
+]]
+add_executable(63_VOTERS practise/easy/VOTERS.cpp)
+add_executable(64_ERROR practise/easy/ERROR.cpp)
+add_executable(65_NAME2 practise/easy/NAME2.cpp)

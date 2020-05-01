@@ -99,3 +99,6 @@ add_executable(62_ROWCOLOP practise/easy/ROWCOLOP.cpp) # Important
 add_executable(63_VOTERS practise/easy/VOTERS.cpp)
 add_executable(64_ERROR practise/easy/ERROR.cpp)
 add_executable(65_NAME2 practise/easy/NAME2.cpp)
+add_executable(65_NAME2_solution2 practise/easy/NAME2_solution2.cpp)
+add_executable(66_MAXDIFF practise/easy/MAXDIFF.cpp)
+add_executable(67_RRECIPE practise/easy/RRECIPE.cpp)

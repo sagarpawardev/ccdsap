@@ -1,0 +1,116 @@
+//
+// Created by Sagar Pawar on 02/05/20.
+//
+
+/**
+Problem: TRPLSRT
+**/
+
+#include <bits/stdc++.h>
+
+#define loop(i, s, e) for(int i=s; i<e; i++)
+#define ll long long
+#define ui unsigned int
+
+using namespace std;
+
+int main() {
+#ifndef ONLINE_JUDGE
+    char *testFile = (char *) "/Users/sagarpawar/CLionProjects/ccdsap/MAY20B/test/TRPLSRT.txt";
+    freopen(testFile, "r", stdin);
+#endif
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+
+    int t = 0;
+    cin >> t;
+    while (t--) {
+        int n, k;
+        cin >> n >> k;
+
+        vector<int> a(n);
+        loop(i, 0, n)
+            cin >> a[i];
+
+        vector<int> aCopy(a);
+        sort(aCopy.begin(), aCopy.end());
+        unordered_map<int, pair<int, int>> position;
+        loop(i, 0, n) {
+            position.insert(make_pair(aCopy[i], make_pair(i, 0) ));
+        }
+
+        loop(i, 0, n) {
+            position[a[i]].second = i;
+        }
+
+
+        vector<vector<int>> steps;
+        vector<bool> done(n);
+        bool impossible = false;
+        for(int x=0; x<n && k>0; x++){
+            if(done[x]){
+                continue;
+            }
+
+            //Find Minimum i.e. place of z
+            int z = position[aCopy[x]].second;
+
+            if(z != x) {
+
+                //Find place for x
+                int y = position[a[x]].first;
+
+                // If y==z then increment, if possible, else decrement
+                if(y==z){
+                    if(y < n-1){
+                        y++;
+                    }
+                    else{
+                        y--;
+                    }
+                }
+                else{
+                    done[y] = true;
+                }
+
+                // Cyclic right shift
+                int temp = a[x];
+                a[x] = a[z];
+                a[z] = a[y];
+                a[y] = temp;
+
+                position[a[x]].second = x;
+                position[a[y]].second = y;
+                position[a[z]].second = z;
+
+                vector<int> step = {x, y, z};
+
+                steps.push_back(step);
+                k--;
+            }
+        }
+
+        // Check if array is sorted
+        loop(i, 1, n){
+            if(a[i-1] > a[i]){
+                impossible = true;
+                break;
+            }
+        }
+
+        if(impossible){
+            cout << "-1\n";
+        }
+        else{
+            int stepSize = steps.size();
+            cout << stepSize << "\n";
+            loop(i, 0, stepSize){
+                vector<int> step = steps[i];
+                cout << step[0]+1 << " " << step[1]+1 << " " << step[2]+1 << "\n";
+            }
+        }
+    }
+
+    return 0;
+}

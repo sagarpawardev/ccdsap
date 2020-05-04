@@ -95,10 +95,19 @@ add_executable(59_AMSGAME1 practise/easy/AMSGAME1.cpp) # Important
 add_executable(60_CSUB practise/easy/CSUB.cpp)
 add_executable(61_SUBGCD practise/easy/SUBGCD.cpp) # Important
 add_executable(62_ROWCOLOP practise/easy/ROWCOLOP.cpp) # Important
-]]
 add_executable(63_VOTERS practise/easy/VOTERS.cpp)
 add_executable(64_ERROR practise/easy/ERROR.cpp)
 add_executable(65_NAME2 practise/easy/NAME2.cpp)
 add_executable(65_NAME2_solution2 practise/easy/NAME2_solution2.cpp)
 add_executable(66_MAXDIFF practise/easy/MAXDIFF.cpp)
+]]
+# May Lunch Time
+add_executable(COVID19 MAY20B/COVID19.cpp)
+add_executable(CORUS MAY20B/CORUS.cpp)
+add_executable(TRPLSRT MAY20B/TRPLSRT.cpp)
+add_executable(TRPLSRT_solution2 MAY20B/TRPLSRT_solution2.cpp)
+
 add_executable(67_RRECIPE practise/easy/RRECIPE.cpp)
+add_executable(68_CHEFZOT practise/easy/CHEFZOT.cpp)
+add_executable(69_NUKES practise/easy/NUKES.cpp)
+add_executable(70_STONES practise/easy/STONES.cpp)

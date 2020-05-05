@@ -4,7 +4,7 @@
 
 /**
 Problem: MARCHA1
-    Basic recursion problem. Bruteforce
+    Basic recursion problem. Brute force solution
 
 Algorithm:
     - This is a brute force solution
@@ -13,6 +13,9 @@ Algorithm:
 
 Learning:
     - Dynamic programming cannot be applied here because range of sum is not given as a result we cannot create array
+
+Complexity: O( 2^n )
+
 **/
 
 #include <bits/stdc++.h>

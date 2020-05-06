@@ -4,6 +4,11 @@
 
 /**
 Problem: LEPERMUT
+
+Complexity: O(n^2)
+
+Learning:
+ This problem can be solved in O(nlogn)
 **/
 
 #include <bits/stdc++.h>

@@ -1,0 +1,14 @@
+2
+wall
+step
+
+// Test 1
+3
+hope
+elephant
+path
+
+// Test 2
+2
+wall
+step

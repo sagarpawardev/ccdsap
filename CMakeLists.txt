@@ -100,13 +100,6 @@ add_executable(64_ERROR practise/easy/ERROR.cpp)
 add_executable(65_NAME2 practise/easy/NAME2.cpp)
 add_executable(65_NAME2_solution2 practise/easy/NAME2_solution2.cpp)
 add_executable(66_MAXDIFF practise/easy/MAXDIFF.cpp)
-]]
-# May Lunch Time
-add_executable(COVID19 MAY20B/COVID19.cpp)
-add_executable(CORUS MAY20B/CORUS.cpp)
-add_executable(TRPLSRT MAY20B/TRPLSRT.cpp)
-add_executable(TRPLSRT_solution2 MAY20B/TRPLSRT_solution2.cpp)
-
 add_executable(67_RRECIPE practise/easy/RRECIPE.cpp)
 add_executable(68_CHEFZOT practise/easy/CHEFZOT.cpp)
 add_executable(69_NUKES practise/easy/NUKES.cpp)
@@ -117,3 +110,15 @@ add_executable(73_CARVANS practise/easy/CARVANS.cpp)
 add_executable(74_LEPERMUT practise/easy/LEPERMUT.cpp)
 add_executable(75_DIVIDING practise/easy/DIVIDING.cpp)
 add_executable(76_SUBANAGR practise/easy/SUBANAGR.cpp)
+add_executable(77_POTATOES practise/easy/POTATOES.cpp)
+add_executable(78_RIGHTRI practise/easy/RIGHTRI.cpp)
+add_executable(79_SMPAIR practise/easy/SMPAIR.cpp)
+add_executable(80_SMRSTR practise/easy/SMRSTR.cpp)
+]]
+# May Lunch Time
+add_executable(COVID19 MAY20B/COVID19.cpp)
+add_executable(CORUS MAY20B/CORUS.cpp)
+add_executable(TRPLSRT MAY20B/TRPLSRT.cpp)
+add_executable(TRPLSRT_solution2 MAY20B/TRPLSRT_solution2.cpp)
+
+add_executable(81_LTM40AB practise/easy/LTM40AB.cpp)

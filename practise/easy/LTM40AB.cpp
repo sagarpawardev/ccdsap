@@ -8,6 +8,13 @@ Problem: LTM40AB
 Learning:
  If WA is coming even if you think logic is correct
  Try all possibilities in logic
+ In this case all possibilities are as follows:
+ 1. c-d-a-b
+ 2. c-a-d-b
+ 3. c-a-b-d
+ 4. a-c-d-b
+ 5. a-c-b-d
+ 6. a-b-c-d
 **/
 
 #include <bits/stdc++.h>

@@ -122,3 +122,5 @@ add_executable(TRPLSRT MAY20B/TRPLSRT.cpp)
 add_executable(TRPLSRT_solution2 MAY20B/TRPLSRT_solution2.cpp)
 
 add_executable(81_LTM40AB practise/easy/LTM40AB.cpp)
+add_executable(82_SUBINC practise/school/SUBINC.cpp)
+add_executable(83_RECNDNOS practise/beginner/RECNDNOS.cpp)

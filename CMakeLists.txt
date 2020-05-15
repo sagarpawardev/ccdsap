@@ -32,6 +32,12 @@ add_executable(SHUFFLE LTIME83B/SHUFFLE.cpp)
 add_executable(MEXUM LTIME83B/MEXUM.cpp)
 add_executable(DOTTIME LTIME83B/DOTTIME.cpp)
 
+# May Lunch Time
+add_executable(COVID19 MAY20B/COVID19.cpp)
+add_executable(CORUS MAY20B/CORUS.cpp)
+add_executable(TRPLSRT MAY20B/TRPLSRT.cpp)
+add_executable(TRPLSRT_solution2 MAY20B/TRPLSRT_solution2.cpp)
+
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)
 add_executable(2_TRISQ practise/biginner/TRISQ.cpp)
@@ -115,12 +121,7 @@ add_executable(78_RIGHTRI practise/easy/RIGHTRI.cpp)
 add_executable(79_SMPAIR practise/easy/SMPAIR.cpp)
 add_executable(80_SMRSTR practise/easy/SMRSTR.cpp)
 ]]
-# May Lunch Time
-add_executable(COVID19 MAY20B/COVID19.cpp)
-add_executable(CORUS MAY20B/CORUS.cpp)
-add_executable(TRPLSRT MAY20B/TRPLSRT.cpp)
-add_executable(TRPLSRT_solution2 MAY20B/TRPLSRT_solution2.cpp)
 
 add_executable(81_LTM40AB practise/easy/LTM40AB.cpp)
 add_executable(82_SUBINC practise/school/SUBINC.cpp)
-add_executable(83_RECNDNOS practise/beginner/RECNDNOS.cpp)
+add_executable(83_KFIB practise/beginner/KFIB.cpp)

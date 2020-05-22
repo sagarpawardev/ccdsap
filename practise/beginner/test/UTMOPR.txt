@@ -1,0 +1,12 @@
+3
+2 3
+5 7
+2 1
+4 7
+2 1
+5 7
+
+// Expected Output
+even
+even
+odd

@@ -1,0 +1,13 @@
+5
+1
+5
+3
+16
+18
+
+//Expected Output
+4LB
+2MB
+6UB
+15SL
+21MBs

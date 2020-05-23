@@ -120,8 +120,6 @@ add_executable(77_POTATOES practise/easy/POTATOES.cpp)
 add_executable(78_RIGHTRI practise/easy/RIGHTRI.cpp)
 add_executable(79_SMPAIR practise/easy/SMPAIR.cpp)
 add_executable(80_SMRSTR practise/easy/SMRSTR.cpp)
-]]
-
 add_executable(81_LTM40AB practise/easy/LTM40AB.cpp)
 add_executable(82_SUBINC practise/school/SUBINC.cpp)
 add_executable(83_KFIB practise/beginner/KFIB.cpp)
@@ -142,3 +140,8 @@ add_executable(97_COMM3 practise/beginner/COMM3.cpp)
 add_executable(98_UTMOPR practise/beginner/UTMOPR.cpp)
 add_executable(99_LCH15JAB practise/beginner/LCH15JAB.cpp)
 add_executable(100_TTENIS practise/beginner/TTENIS.cpp)
+]]
+
+add_executable(101_RECIPE practise/beginner/RECIPE.cpp)
+add_executable(102_GDOG practise/beginner/GDOG.cpp)
+add_executable(103_TRICOIN practise/beginner/TRICOIN.cpp)

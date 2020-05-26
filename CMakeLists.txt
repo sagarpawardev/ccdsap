@@ -38,6 +38,15 @@ add_executable(CORUS MAY20B/CORUS.cpp)
 add_executable(TRPLSRT MAY20B/TRPLSRT.cpp)
 add_executable(TRPLSRT_solution2 MAY20B/TRPLSRT_solution2.cpp)
 
+# COOK118
+add_executable(CHEFRECP COOK118B/CHEFRECP.cpp)
+add_executable(CHFIMPRS COOK118B/CHFIMPRS.cpp)
+add_executable(CROADS COOK118B/_CROADS.cpp)
+
+# KM252020 ketek[i] Match 25.5
+add_executable(QM25P5A KM252020/QM25P5A.cpp)
+add_executable(KM25P5B KM252020/KM25P5B.cpp)
+
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)
 add_executable(2_TRISQ practise/biginner/TRISQ.cpp)
@@ -150,8 +159,5 @@ add_executable(107_COLOR practise/beginner/COLOR.cpp)
 add_executable(108_CHEFKEY practise/beginner/CHEFKEY.cpp)
 ]]
 
-add_executable(CHEFRECP COOK118B/CHEFRECP.cpp)
-add_executable(CHFIMPRS COOK118B/CHFIMPRS.cpp)
-add_executable(CROADS COOK118B/_CROADS.cpp)
-add_executable(QM25P5A KM252020/QM25P5A.cpp)
-add_executable(KM25P5B KM252020/KM25P5B.cpp)
+
+add_executable(CHRL2 practise/beginner/CHRL2.cpp)

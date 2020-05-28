@@ -160,5 +160,6 @@ add_executable(108_CHEFKEY practise/beginner/CHEFKEY.cpp)
 ]]
 
 
-add_executable(CHRL2 practise/beginner/CHRL2.cpp)
-add_executable(CHRL2_solution2 practise/beginner/CHRL2_solution2.cpp)
+add_executable(109_CHRL2 practise/beginner/CHRL2.cpp)
+add_executable(109_CHRL2_solution2 practise/beginner/CHRL2_solution2.cpp)
+add_executable(110_RAINBOWA practise/beginner/RAINBOWA.cpp)

@@ -47,6 +47,12 @@ add_executable(CROADS COOK118B/_CROADS.cpp)
 add_executable(QM25P5A KM252020/QM25P5A.cpp)
 add_executable(KM25P5B KM252020/KM25P5B.cpp)
 
+# May Lunchtime
+add_executable(LOSTWKND LTIME84B/LOSTWKND.cpp)
+add_executable(WWALK LTIME84B/WWALK.cpp)
+add_executable(TREDIFF LTIME84B/TREDIFF.cpp)
+add_executable(TREDIFF_solution2 LTIME84B/TREDIFF_solution2.cpp)
+
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)
 add_executable(2_TRISQ practise/biginner/TRISQ.cpp)

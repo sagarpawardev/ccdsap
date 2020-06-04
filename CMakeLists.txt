@@ -51,7 +51,7 @@ add_executable(KM25P5B KM252020/KM25P5B.cpp)
 add_executable(LOSTWKND LTIME84B/LOSTWKND.cpp)
 add_executable(WWALK LTIME84B/WWALK.cpp)
 add_executable(TREDIFF LTIME84B/TREDIFF.cpp)
-add_executable(TREDIFF_solution2 LTIME84B/TREDIFF_solution2.cpp)
+
 
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)
@@ -165,6 +165,7 @@ add_executable(107_COLOR practise/beginner/COLOR.cpp)
 add_executable(108_CHEFKEY practise/beginner/CHEFKEY.cpp)
 ]]
 
+add_executable(TREDIFF_solution2 LTIME84B/TREDIFF_solution2.cpp)
 
 add_executable(109_CHRL2 practise/beginner/CHRL2.cpp)
 add_executable(109_CHRL2_solution2 practise/beginner/CHRL2_solution2.cpp)

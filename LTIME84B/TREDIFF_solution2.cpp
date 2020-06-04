@@ -25,7 +25,7 @@
 
 using namespace std;
 
-vector<vector<int>> tree;
+vector<unordered_set<int>> tree;
 vector<vector<int>> paths;
 vector<bool> visited;
 
@@ -39,9 +39,8 @@ void dfs(int current, vector<int>& parentPath){
     path.push_back(current);
     paths[current] = path;
 
-    int n = tree[current].size();
-    loop(i, 0, n){
-        dfs(tree[current][i], path);
+    for(int i: tree[current]){
+        dfs(i, path);
     }
 }
 
@@ -65,12 +64,12 @@ int main() {
             cin >> a[i];
         }
 
-        tree = vector<vector<int>>(n+1, vector<int>());
+        tree = vector<unordered_set<int>>(n+1, unordered_set<int>());
         int u, v;
         loop(i, 0, n-1){
             cin >> u >> v;
-            tree[u].push_back( v );
-            tree[v].push_back( u );
+            tree[u].emplace( v );
+            tree[v].emplace( u );
         }
 
         paths = vector<vector<int>>(n+1, vector<int>());
@@ -95,25 +94,49 @@ int main() {
                 j++;
             }
 
+            int diff = MAX_INT;
+
+            unordered_set<int> pathValues;
             vector<int> path;
+            int value;
             loop(l, j, sizeX){
-                path.push_back(a[pathX[l]-1]);
+                value = a[pathX[l]-1];
+                if(pathValues.find(value) == pathValues.end()) {
+                    path.push_back(value);
+                }
+                else{
+                    diff = 0;
+                    break;
+                }
+                pathValues.emplace(value);
             }
 
             loop(l, j, sizeY){
-                path.push_back(a[pathY[l]-1]);
+                value = a[pathY[l]-1];
+                if(diff > 0 && pathValues.find(value) == pathValues.end()) {
+                    path.push_back(value);
+                }
+                else{
+                    diff = 0;
+                    break;
+                }
+                pathValues.emplace(value);
             }
 
             path.push_back(a[pathY[j-1]-1]);
 
             int pSize = path.size();
-            // Sort
-            sort(path.begin(), path.begin()+pSize);
+            if(diff>0 && pSize <= 100) {
+                // Sort
+                sort(path.begin(), path.begin() + pSize);
 
-            // Find minimum diff
-            int diff = MAX_INT;
-            loop(l, 1, pSize){
-                diff = min( diff, path[l]-path[l-1] );
+                // Find minimum diff
+                loop(l, 1, pSize) {
+                    diff = min(diff, path[l] - path[l - 1]);
+                }
+            }
+            else{
+                diff = 0;
             }
 
             cout << diff << "\n";

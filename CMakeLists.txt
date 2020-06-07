@@ -172,3 +172,9 @@ add_executable(109_CHRL2_solution2 practise/beginner/CHRL2_solution2.cpp)
 add_executable(110_RAINBOWA practise/beginner/RAINBOWA.cpp)
 add_executable(111_APPROX2 practise/easy/APPROX2.cpp)
 add_executable(112_NOCODING practise/easy/NOCODING.cpp)
+
+# JUNE20B
+add_executable(PRICECON JUNE20B/PRICECON.cpp)
+add_executable(XYSTR JUNE20B/XYSTR.cpp)
+add_executable(CHFICRM JUNE20B/CHFICRM.cpp)
+add_executable(EOEO JUNE20B/EOEO.cpp)

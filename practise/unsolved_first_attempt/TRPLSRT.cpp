@@ -9,7 +9,7 @@
     1. Find all possible cycle
     2. If odd number of even-cycle then print -1
     3. If odd cycles or even number of even-cycle
-        - process all triplets in pair of 3
+        - process all triplets in cycle sequentially
         - add unprocessed element back in cycle
         - perform this until element are 0 for odd cycle and 2 for even cycle are left
         - for even cycle add extra element in the list
@@ -22,7 +22,7 @@
     Never use printf() if you are using cin.tie(null)
 
  Tags:
-    must-do
+    must-do, minimum-swaps
 
 **/
 

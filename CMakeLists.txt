@@ -35,7 +35,7 @@ add_executable(DOTTIME LTIME83B/DOTTIME.cpp)
 # May Lunch Time
 add_executable(COVID19 MAY20B/COVID19.cpp)
 add_executable(CORUS MAY20B/CORUS.cpp)
-add_executable(TRPLSRT MAY20B/TRPLSRT.cpp)
+add_executable(TRPLSRT_solution1 MAY20B/TRPLSRT.cpp)
 add_executable(TRPLSRT_solution2 MAY20B/TRPLSRT_solution2.cpp)
 
 # COOK118
@@ -180,3 +180,4 @@ add_executable(CHFICRM JUNE20B/CHFICRM.cpp)
 add_executable(EOEO JUNE20B/EOEO.cpp)
 add_executable(EVENM JUNE20B/EVENM.cpp)
 add_executable(COVDSMPL JUNE20B/_COVDSMPL.cpp)
+add_executable(TRPLSRT practise/unsolved_first_attempt/TRPLSRT.cpp)

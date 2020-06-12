@@ -50,7 +50,7 @@ add_executable(KM25P5B KM252020/KM25P5B.cpp)
 # May Lunchtime
 add_executable(LOSTWKND LTIME84B/LOSTWKND.cpp)
 add_executable(WWALK LTIME84B/WWALK.cpp)
-add_executable(TREDIFF LTIME84B/TREDIFF.cpp)
+add_executable(_TREDIFF LTIME84B/TREDIFF.cpp)
 
 
 # Practise problems
@@ -181,3 +181,4 @@ add_executable(EOEO JUNE20B/EOEO.cpp)
 add_executable(EVENM JUNE20B/EVENM.cpp)
 add_executable(COVDSMPL JUNE20B/_COVDSMPL.cpp)
 add_executable(TRPLSRT practise/unsolved_first_attempt/TRPLSRT.cpp)
+add_executable(TREDIFF practise/unsolved_first_attempt/TREDIFF.cpp)

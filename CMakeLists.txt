@@ -51,7 +51,15 @@ add_executable(KM25P5B KM252020/KM25P5B.cpp)
 add_executable(LOSTWKND LTIME84B/LOSTWKND.cpp)
 add_executable(WWALK LTIME84B/WWALK.cpp)
 add_executable(_TREDIFF LTIME84B/TREDIFF.cpp)
+add_executable(TREDIFF_solution2 LTIME84B/TREDIFF_solution2.cpp)
 
+# JUNE20B
+add_executable(PRICECON JUNE20B/PRICECON.cpp)
+add_executable(XYSTR JUNE20B/XYSTR.cpp)
+add_executable(CHFICRM JUNE20B/CHFICRM.cpp)
+add_executable(EOEO JUNE20B/EOEO.cpp)
+add_executable(EVENM JUNE20B/EVENM.cpp)
+add_executable(COVDSMPL JUNE20B/_COVDSMPL.cpp)
 
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)
@@ -165,20 +173,13 @@ add_executable(107_COLOR practise/beginner/COLOR.cpp)
 add_executable(108_CHEFKEY practise/beginner/CHEFKEY.cpp)
 ]]
 
-add_executable(TREDIFF_solution2 LTIME84B/TREDIFF_solution2.cpp)
-
 add_executable(109_CHRL2 practise/beginner/CHRL2.cpp)
 add_executable(109_CHRL2_solution2 practise/beginner/CHRL2_solution2.cpp)
 add_executable(110_RAINBOWA practise/beginner/RAINBOWA.cpp)
 add_executable(111_APPROX2 practise/easy/APPROX2.cpp)
 add_executable(112_NOCODING practise/easy/NOCODING.cpp)
-
-# JUNE20B
-add_executable(PRICECON JUNE20B/PRICECON.cpp)
-add_executable(XYSTR JUNE20B/XYSTR.cpp)
-add_executable(CHFICRM JUNE20B/CHFICRM.cpp)
-add_executable(EOEO JUNE20B/EOEO.cpp)
-add_executable(EVENM JUNE20B/EVENM.cpp)
-add_executable(COVDSMPL JUNE20B/_COVDSMPL.cpp)
-add_executable(TRPLSRT practise/unsolved_first_attempt/TRPLSRT.cpp)
-add_executable(TREDIFF practise/unsolved_first_attempt/TREDIFF.cpp)
+add_executable(113_TRPLSRT practise/unsolved_first_attempt/TRPLSRT.cpp)
+add_executable(114_TREDIFF practise/unsolved_first_attempt/TREDIFF.cpp)
+add_executable(115_PRIME1 practise/easy/PRIME1.cpp)
+add_executable(116_BUYING2 practise/easy/BUYING2.cpp)
+add_executable(117_EASYPROB practise/easy/EASYPROB.cpp)

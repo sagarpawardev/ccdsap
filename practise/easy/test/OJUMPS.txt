@@ -1,0 +1,17 @@
+7
+0
+1
+2
+3
+6
+7
+10
+
+// Expected
+yes
+yes
+no
+yes
+yes
+yes
+no

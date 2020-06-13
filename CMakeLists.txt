@@ -171,8 +171,6 @@ add_executable(105_ANKTRAIN practise/beginner/ANKTRAIN.cpp)
 add_executable(106_KTTABLE practise/beginner/KTTABLE.cpp)
 add_executable(107_COLOR practise/beginner/COLOR.cpp)
 add_executable(108_CHEFKEY practise/beginner/CHEFKEY.cpp)
-]]
-
 add_executable(109_CHRL2 practise/beginner/CHRL2.cpp)
 add_executable(109_CHRL2_solution2 practise/beginner/CHRL2_solution2.cpp)
 add_executable(110_RAINBOWA practise/beginner/RAINBOWA.cpp)
@@ -187,4 +185,6 @@ add_executable(118_OJUMPS practise/easy/OJUMPS.cpp)
 add_executable(119_SPCANDY practise/easy/SPCANDY.cpp)
 add_executable(120_NUMGAME2 practise/easy/NUMGAME2.cpp)
 add_executable(121_TOTR practise/easy/TOTR.cpp)
+]]
+
 add_executable(122_RRCOPY practise/easy/RRCOPY.cpp)

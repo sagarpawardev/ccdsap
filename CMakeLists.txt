@@ -59,7 +59,7 @@ add_executable(XYSTR JUNE20B/XYSTR.cpp)
 add_executable(CHFICRM JUNE20B/CHFICRM.cpp)
 add_executable(EOEO JUNE20B/EOEO.cpp)
 add_executable(EVENM JUNE20B/EVENM.cpp)
-add_executable(COVDSMPL JUNE20B/_COVDSMPL.cpp)
+add_executable(COVDSMPL JUNE20B/COVDSMPL.cpp)
 
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)

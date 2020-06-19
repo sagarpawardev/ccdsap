@@ -188,5 +188,5 @@ add_executable(121_TOTR practise/easy/TOTR.cpp)
 ]]
 
 add_executable(122_RRCOPY practise/easy/RRCOPY.cpp)
-
-add_executable(LEBOMBS practise/easy/LEBOMBS.cpp)
+add_executable(123_LEBOMBS practise/easy/LEBOMBS.cpp)
+add_executable(124_CHEFSHIP practise/unsolved_first_attempt/CHEFSHIP.cpp)

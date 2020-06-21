@@ -185,9 +185,13 @@ add_executable(118_OJUMPS practise/easy/OJUMPS.cpp)
 add_executable(119_SPCANDY practise/easy/SPCANDY.cpp)
 add_executable(120_NUMGAME2 practise/easy/NUMGAME2.cpp)
 add_executable(121_TOTR practise/easy/TOTR.cpp)
-]]
-
 add_executable(122_RRCOPY practise/easy/RRCOPY.cpp)
 add_executable(123_LEBOMBS practise/easy/LEBOMBS.cpp)
 add_executable(124_CHEFSHIP practise/unsolved_first_attempt/CHEFSHIP.cpp)
-add_executable(SECMSG practise/medium/SECMSG.cpp)
+add_executable(125_SECMSG practise/medium/SECMSG.cpp)
+]]
+
+
+add_executable(MAXMEX COOK119B/MAXMEX.cpp)
+add_executable(CACHEHIT COOK119B/CACHEHIT.cpp)
+add_executable(PERCAPTA COOK119B/PERCAPTA.cpp)

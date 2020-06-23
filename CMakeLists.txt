@@ -197,3 +197,6 @@ add_executable(125_SECMSG practise/medium/SECMSG.cpp)
 ]]
 
 add_executable(126_MATBREAK practise/unsolved_first_attempt/MATBREAK.cpp)
+add_executable(A codeforces/CR652DIV2/A.cpp)
+add_executable(B codeforces/CR652DIV2/B.cpp)
+add_executable(C codeforces/CR652DIV2/C.cpp)

@@ -24,7 +24,7 @@ add_executable(GALACTIK "disjoint set union/_GALACTIK.cpp")
 add_executable(DISHOWN "disjoint set union/DISHOWN.cpp")
 add_executable(JABO "disjoint set union/_JABO.cpp")
 add_executable(LIFTME COOK117B/LIFTME.cpp)
-add_executable(MATBREAK COOK117B/_MATBREAK.cpp)
+add_executable(_MATBREAK COOK117B/_MATBREAK.cpp)
 
 #April Lunch Time
 add_executable(FFL LTIME83B/FFL.cpp)
@@ -60,6 +60,11 @@ add_executable(CHFICRM JUNE20B/CHFICRM.cpp)
 add_executable(EOEO JUNE20B/EOEO.cpp)
 add_executable(EVENM JUNE20B/EVENM.cpp)
 add_executable(COVDSMPL JUNE20B/COVDSMPL.cpp)
+
+# COOK119B June Cook Off
+add_executable(MAXMEX COOK119B/MAXMEX.cpp)
+add_executable(CACHEHIT COOK119B/CACHEHIT.cpp)
+add_executable(PERCAPTA COOK119B/PERCAPTA.cpp)
 
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)
@@ -191,7 +196,4 @@ add_executable(124_CHEFSHIP practise/unsolved_first_attempt/CHEFSHIP.cpp)
 add_executable(125_SECMSG practise/medium/SECMSG.cpp)
 ]]
 
-
-add_executable(MAXMEX COOK119B/MAXMEX.cpp)
-add_executable(CACHEHIT COOK119B/CACHEHIT.cpp)
-add_executable(PERCAPTA COOK119B/PERCAPTA.cpp)
+add_executable(126_MATBREAK practise/unsolved_first_attempt/MATBREAK.cpp)

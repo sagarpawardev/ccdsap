@@ -66,6 +66,11 @@ add_executable(MAXMEX COOK119B/MAXMEX.cpp)
 add_executable(CACHEHIT COOK119B/CACHEHIT.cpp)
 add_executable(PERCAPTA COOK119B/PERCAPTA.cpp)
 
+# Codeforces C Round652 DIV2
+add_executable(A codeforces/CR652DIV2/A.cpp)
+add_executable(B codeforces/CR652DIV2/B.cpp)
+add_executable(C codeforces/CR652DIV2/C.cpp)
+
 # Practise problems
 add_executable(1_START01 practise/biginner/START01.cpp)
 add_executable(2_TRISQ practise/biginner/TRISQ.cpp)
@@ -194,9 +199,6 @@ add_executable(122_RRCOPY practise/easy/RRCOPY.cpp)
 add_executable(123_LEBOMBS practise/easy/LEBOMBS.cpp)
 add_executable(124_CHEFSHIP practise/unsolved_first_attempt/CHEFSHIP.cpp)
 add_executable(125_SECMSG practise/medium/SECMSG.cpp)
+add_executable(126_MATBREAK practise/unsolved_first_attempt/MATBREAK.cpp)
 ]]
 
-add_executable(126_MATBREAK practise/unsolved_first_attempt/MATBREAK.cpp)
-add_executable(A codeforces/CR652DIV2/A.cpp)
-add_executable(B codeforces/CR652DIV2/B.cpp)
-add_executable(C codeforces/CR652DIV2/C.cpp)
